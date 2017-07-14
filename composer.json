@@ -1,0 +1,24 @@
+{
+  "name": "yanthink/ueditor",
+  "description": "百度UEditor服务端",
+  "keywords": [
+    "UEditor",
+    "laravel"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yanthink",
+      "email": "yanthink911@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yanthink\\Ueditor\\": "src/"
+    }
+  }
+}
