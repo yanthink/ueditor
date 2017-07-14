@@ -53,6 +53,8 @@ class Ueditor implements UeditorInteface
     public function setResolvePath($callback)
     {
         $this->resolvePath = $callback;
+
+        return $this;
     }
 
     public function getUploadConfig()
